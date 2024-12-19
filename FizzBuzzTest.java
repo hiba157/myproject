@@ -8,8 +8,8 @@ public class FizzBuzzTest {
 
     @Test
 
-    public void testFizzBuzzDivisible5() {
-        assertEquals("Buzz", FizzBuzz.de(5));
+    public void testFizzBuzzDivisible15() {
+        assertEquals("FizzBuzz", FizzBuzz.de(15));
     }
 
 
