@@ -7,8 +7,9 @@ public class FizzBuzzTest {
 
 
     @Test
-    public void testFizzBuzzDivisible3() {
-        assertEquals("Fizz", FizzBuzz.de(3));
+
+    public void testFizzBuzzDivisible5() {
+        assertEquals("Buzz", FizzBuzz.de(5));
     }
 
 
@@ -17,7 +18,19 @@ public class FizzBuzzTest {
 
 
 
+
 }
+   /* public void testFizzBuzzDivisible3() {
+        assertEquals("Fizz", FizzBuzz.de(3));
+    }
+
+*/
+
+
+
+
+
+
 
 
 
