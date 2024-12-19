@@ -6,14 +6,31 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FizzBuzzTest {
 
 
+    @Test
+    public void testFizzBuzzDivisible3() {
+        assertEquals("Fizz", FizzBuzz.de(3));
+    }
 
-        @Test
-        public void testFizzBuzz() {
 
-            assertEquals("1", FizzBuzz.de(1));
-        }
+
+
+
+
 
 }
+
+
+
+
+
+
+
+       /* public void testFizzBuzz() {
+
+            assertEquals("1", FizzBuzz.de(1));
+        }*/
+
+
 
 
 
